@@ -3,7 +3,7 @@ this is a program to turn pdf files to dark mode
 put the pdf file in the pdf folder copy it's name (with the extention) then run
 the app.py
 >it will ask for the name of the pdf file then
->A name of a folder (somthing like dark would do the trick) it is also the
+>>A name of a folder (somthing like dark would do the trick) it is also the
 name of the new Dark pdf file to be generated so be carful not to overwrite somthing in the pdf folder
 
 and voila you have a dark pdf waiting for you in the pdf folder
