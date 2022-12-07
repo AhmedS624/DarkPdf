@@ -28,12 +28,14 @@ I made this program on a potato laptop (1 GB RAM) so it can't take a 200 page pd
 in on go so I made 2 tools to help with that
 
 split pdf.py
+
     this tool splits one big pdf into a multible parts based on how you divide it
     first it asks for the name of the file then a number to split by
     for example: if the big pdf has 200 pages and you enter 50 in the result folder
                 you will find 4 pdf each one has 50 pages
     if it has 210 the result will be 4 pdfs with 50 pages and 1 with 10 (5 parts in total)
 merge pdf.py
+
     after you take the parts from the results folder into Darkpdf/pdf folder then use app.py on
     all of them one by one you will need to merge them into a one big file
     here is where this tool comes in
