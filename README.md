@@ -8,8 +8,6 @@ name of the new Dark pdf file to be generated so be carful not to overwrite somt
 
 and voila you have a dark pdf waiting for you in the pdf folder
 
-then it will ask you for a folder name this name will be the name of the finished
-pdf file (just type somthing like 'dark' for example 
 
 !!!IMPORTANT
 
