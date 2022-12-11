@@ -5,10 +5,13 @@ import subprocess
 from functions.filter import PhotoLoop
 from functions.imgs_to_pdf import img2pdf
 from functions.pdf_to_img import convertToImg
+
+
 parent_dir = '/home/hamada/Documents/Projects/DarkPdf'
 pdf = input('Name of the pdf file in pdf folder : ')
+Dpdf = pdf.split('.')[0]
 W_imgs = 'White_folder'
-D_imgs = input('Create folder for Dark images: ')
+D_imgs = 'Dark_imgs'
 
 
     
@@ -37,7 +40,7 @@ time.sleep(1)
 print('initiate Dark imgs to pdf')
 
 time.sleep(1)
-img2pdf(D_imgs_path,f'pdf/{D_imgs}.pdf')
+img2pdf(D_imgs_path,f'pdf/{Dpdf}.pdf')
 
 time.sleep(1)
 
@@ -50,4 +53,4 @@ time.sleep(1)
 print('opening file')
 time.sleep(1)
 
-subprocess.call(['xdg-open',f"pdf/{D_imgs}.pdf"])
+subprocess.call(['xdg-open',f"pdf/{Dpdf}.pdf"])

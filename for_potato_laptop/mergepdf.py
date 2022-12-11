@@ -1,7 +1,8 @@
 from PyPDF2 import PdfFileMerger, PdfFileReader
 merger = PdfFileMerger()
+print('when done press enter again')
+
 while True:
-    print('when done press enter again')
     inp = input('pdf file name: ')
     if inp == '':
         break
